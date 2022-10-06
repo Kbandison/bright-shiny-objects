@@ -20,6 +20,11 @@ function incrementAge(user) {
   return user;
 }
 
+function fixCar(car){
+  car.needsMaintenance = false;
+  return car;
+}
+
 
 
 
