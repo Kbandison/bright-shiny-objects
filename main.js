@@ -2,10 +2,23 @@
 // │ Your code here! │
 // └─────────────────┘
 
+let createUser = (firstName, lastName) => {
+  let user = {
+    firstName: firstName,
+    lastName: lastName
+  }
+  return user;
+}
 
+let setAge = (user, age) => {
+  user.age = age;
+  return user;
+}
 
-
-
+function incrementAge(user) {
+  user.age = user.age + 1;
+  return user;
+}
 
 
 
